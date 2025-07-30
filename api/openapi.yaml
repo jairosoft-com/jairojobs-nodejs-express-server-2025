@@ -196,6 +196,62 @@ paths:
       x-openapi-router-service: JobsService
 components:
   schemas:
+    Company:
+      description: Company information for job postings
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique company identifier
+          example: "comp-001"
+          pattern: "^comp-[a-zA-Z0-9]+$"
+        name:
+          type: string
+          description: Company name
+          example: "TechCorp Solutions"
+        logo:
+          type: string
+          format: uri
+          description: Company logo URL
+          example: "https://via.placeholder.com/200x80/4A90E2/FFFFFF?text=TechCorp"
+        description:
+          type: string
+          description: Company description
+          example: "Leading technology solutions provider specializing in cloud infrastructure and enterprise software."
+        website:
+          type: string
+          format: uri
+          description: Company website
+          example: "https://techcorp.example.com"
+        industry:
+          type: string
+          description: Industry type
+          example: "technology"
+        size:
+          type: string
+          description: Company size
+          enum: ["startup", "small", "medium", "large"]
+          example: "large"
+        founded:
+          type: integer
+          description: Founding year
+          example: 2010
+        headquarters:
+          type: string
+          description: Headquarters location
+          example: "San Francisco, CA"
+        verified:
+          type: boolean
+          description: Verification status
+          example: true
+        featured:
+          type: boolean
+          description: Featured company status
+          example: true
+      required:
+        - id
+        - name
+        - verified
     JobSummary:
       description: A summary of a job listing.
       example:
@@ -216,9 +272,7 @@ components:
           example: string
           type: string
         company:
-          description: The name of the company posting the job.
-          example: string
-          type: string
+          $ref: "#/components/schemas/Company"
         location:
           description: The location of the job.
           example: string
@@ -360,19 +414,7 @@ components:
           example: Senior Full Stack Developer
           type: string
         company:
-          description: The name of the company posting the job.
-          example: TechCorp Solutions
-          type: string
-        companyId:
-          description: Unique identifier for the company.
-          example: comp-456
-          pattern: "^comp-[a-zA-Z0-9]+$"
-          type: string
-        companyLogo:
-          description: URL to the company's logo.
-          example: https://via.placeholder.com/200x80/4A90E2/FFFFFF?text=TechCorp
-          format: uri
-          type: string
+          $ref: "#/components/schemas/Company"
         location:
           description: The location of the job.
           example: "San Francisco, CA"

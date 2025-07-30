@@ -1,102 +1,41 @@
 {
   "mockCompanies": [
     {
-      "id": "1",
+      "id": "comp-001",
       "name": "TechCorp Solutions",
-      "logo": "/companies/techcorp.png",
+      "logo": "https://via.placeholder.com/200x80/4A90E2/FFFFFF?text=TechCorp",
       "description": "Leading technology solutions provider specializing in cloud infrastructure and enterprise software.",
       "website": "https://techcorp.example.com",
       "industry": "technology",
       "size": "large",
       "founded": 2010,
       "headquarters": "San Francisco, CA",
-      "locations": ["San Francisco, CA", "New York, NY", "Austin, TX", "Remote"],
-      "employees": {
-        "min": 1000,
-        "max": 5000
-      },
-      "culture": "Innovation-driven culture with focus on work-life balance and continuous learning.",
-      "benefits": [
-        "Comprehensive health insurance",
-        "Unlimited PTO",
-        "401(k) matching",
-        "Remote work options",
-        "Professional development budget",
-        "Stock options"
-      ],
-      "techStack": [
-        "React",
-        "Node.js",
-        "AWS",
-        "Python",
-        "Kubernetes",
-        "TypeScript"
-      ],
-      "socialLinks": {
-        "linkedin": "https://linkedin.com/company/techcorp",
-        "twitter": "https://twitter.com/techcorp"
-      },
       "verified": true,
       "featured": true
     },
     {
-      "id": "2",
+      "id": "comp-002",
       "name": "StartupHub",
-      "logo": "/companies/startuphub.png",
+      "logo": "https://via.placeholder.com/200x80/28A745/FFFFFF?text=StartupHub",
       "description": "Fast-growing fintech startup revolutionizing digital payments.",
       "website": "https://startuphub.example.com",
       "industry": "finance",
       "size": "startup",
       "founded": 2021,
       "headquarters": "New York, NY",
-      "locations": ["New York, NY", "Remote"],
-      "employees": {
-        "min": 50,
-        "max": 100
-      },
-      "culture": "Fast-paced, collaborative environment with entrepreneurial spirit.",
-      "benefits": [
-        "Health insurance",
-        "Flexible hours",
-        "Equity compensation",
-        "Remote-first",
-        "Learning stipend"
-      ],
-      "techStack": ["React Native", "Go", "PostgreSQL", "Docker", "TypeScript"],
-      "socialLinks": {
-        "linkedin": "https://linkedin.com/company/startuphub"
-      },
       "verified": true,
       "featured": false
     },
     {
-      "id": "3",
+      "id": "comp-003",
       "name": "Global Health Systems",
-      "logo": "/companies/globalhealth.png",
+      "logo": "https://via.placeholder.com/200x80/DC3545/FFFFFF?text=GlobalHealth",
       "description": "Healthcare technology company improving patient care through innovative solutions.",
       "website": "https://globalhealth.example.com",
       "industry": "healthcare",
       "size": "medium",
       "founded": 2015,
       "headquarters": "Boston, MA",
-      "locations": ["Boston, MA", "Chicago, IL", "Remote"],
-      "employees": {
-        "min": 300,
-        "max": 500
-      },
-      "culture": "Mission-driven organization focused on making healthcare accessible.",
-      "benefits": [
-        "Excellent health coverage",
-        "Parental leave",
-        "Retirement planning",
-        "Wellness programs",
-        "Volunteer time off"
-      ],
-      "techStack": ["Java", "Spring Boot", "Angular", "MySQL", "AWS", "FHIR"],
-      "socialLinks": {
-        "linkedin": "https://linkedin.com/company/globalhealth",
-        "facebook": "https://facebook.com/globalhealth"
-      },
       "verified": true,
       "featured": false
     }

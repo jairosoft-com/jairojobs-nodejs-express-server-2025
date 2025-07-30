@@ -93,6 +93,15 @@ This plan outlines the implementation of the PostgreSQL database structure for t
 - [x] Test migration against local PostgreSQL instance
 - [x] Verify data integrity and API compatibility
 
+#### **Task 2.1.3: Create Company Schema in OpenAPI**
+- [x] Add Company schema definition to `components.schemas` in `api/openapi.yaml`
+- [x] Define required properties: id, name, logo, description, website, industry, size, founded, headquarters
+- [x] Add optional properties: verified, featured
+- [x] Update Job schema to reference Company instead of simple string
+- [x] Convert mockCompanies data to match new schema format
+- [x] Update company IDs to use `comp-` prefix pattern consistently
+- [x] Test schema validation and ensure no OpenAPI linting errors
+
 ### ✅ **Task 2.2: Create Related Tables**
 - [ ] Create `job_requirements` table (one-to-many)
 - [ ] Create `job_responsibilities` table (one-to-many)
@@ -100,8 +109,8 @@ This plan outlines the implementation of the PostgreSQL database structure for t
 - [ ] Create `job_tags` table (one-to-many)
 
 ### ✅ **Task 2.3: Create Companies Table (Future Enhancement)**
-- [ ] Create `companies` table for company management
-- [ ] Add foreign key relationship to jobs table
+- [x] Create `companies` table for company management
+- [x] Add foreign key relationship to jobs table
 - [ ] Implement company logo storage strategy
 
 ---

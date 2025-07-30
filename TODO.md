@@ -74,10 +74,24 @@ This plan outlines the implementation of the PostgreSQL database structure for t
 ## 🏗️ **Phase 2: Main Tables Implementation**
 
 ### ✅ **Task 2.1: Create Jobs Table**
-- [ ] Create primary `jobs` table with all core fields
-- [ ] Implement proper constraints and validation
-- [ ] Add audit fields (created_at, updated_at)
-- [ ] Set up triggers for updated_at maintenance
+- [x] Create primary `jobs` table with all core fields
+- [x] Implement proper constraints and validation
+- [x] Add audit fields (created_at, updated_at)
+- [x] Set up triggers for updated_at maintenance
+
+#### **Task 2.1.1: Fix Mock Data Schema Compliance**
+- [x] Update job IDs to use proper UUID format (replace simple strings with UUIDs)
+- [x] Update company IDs to use `comp-` prefix pattern (`^comp-[a-zA-Z0-9]+$`)
+- [x] Convert company logo URLs from relative paths to HTTPS URLs
+- [x] Verify all 23 mock job entries comply with OpenAPI schema validation
+
+#### **Task 2.1.2: Create Migration Scripts for Mock Data**
+- [x] Create migration directory structure (`migrations/`)
+- [x] Create `002_insert_mock_jobs.sql` with INSERT statements for all 23 jobs
+- [x] Handle special data types (UUID, JSONB salary, arrays for requirements/responsibilities/benefits/tags)
+- [x] Create `003_verify_mock_data.sql` with validation queries
+- [x] Test migration against local PostgreSQL instance
+- [x] Verify data integrity and API compatibility
 
 ### ✅ **Task 2.2: Create Related Tables**
 - [ ] Create `job_requirements` table (one-to-many)

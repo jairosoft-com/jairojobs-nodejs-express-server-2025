@@ -1,4 +1,4 @@
-openapi: 3.0.3
+openapi: 3.1.0
 info:
   contact:
     email: support@jairojobs.com
@@ -6,9 +6,12 @@ info:
   description: API for the JairoJobs.com job portal MVP.
   title: Job Portal API
   version: 1.0.0
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
 servers:
-- description: Local Development Server
-  url: http://localhost:4010
+- description: Development Server
+  url: https://dev-api.jairojobs.com
 - description: Production Server
   url: https://api.jairojobs.com
 security:
@@ -181,6 +184,7 @@ paths:
             application/json:
               example:
                 code: 404
+                message: Job not found.
               schema:
                 $ref: "#/components/schemas/Error"
           description: Job not found.
@@ -674,20 +678,6 @@ components:
           type: array
         pagination:
           $ref: "#/components/schemas/Pagination"
-    SearchAndListJobsResponse200JsonJobs:
-      description: A list of job summaries.
-      example:
-      - id: "1"
-        title: Developer
-        company: TechCorp
-        location: San Francisco
-        type: full-time
-        remoteOption: hybrid
-        postedAt: 2025-07-27T10:18:08.099
-      items:
-        $ref: "#/components/schemas/JobSummary"
-      maxItems: 100
-      type: array
     JobSalary:
       description: Salary information for a job.
       example:
@@ -714,46 +704,6 @@ components:
           description: The period of the salary.
           example: yearly
           type: string
-    JobRequirements:
-      description: List of requirements for the job.
-      example:
-      - string
-      items:
-        description: A requirement for the job.
-        example: string
-        type: string
-      maxItems: 100
-      type: array
-    JobResponsibilities:
-      description: List of responsibilities for the job.
-      example:
-      - string
-      items:
-        description: A responsibility for the job.
-        example: string
-        type: string
-      maxItems: 100
-      type: array
-    JobBenefits:
-      description: List of benefits for the job.
-      example:
-      - string
-      items:
-        description: A benefit for the job.
-        example: string
-        type: string
-      maxItems: 100
-      type: array
-    JobTags:
-      description: List of tags for the job.
-      example:
-      - string
-      items:
-        description: A tag for the job.
-        example: string
-        type: string
-      maxItems: 100
-      type: array
     JobSummaryJobType:
       description: The type of employment.
       enum:

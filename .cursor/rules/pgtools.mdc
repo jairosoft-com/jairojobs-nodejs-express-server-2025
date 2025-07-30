@@ -1,0 +1,12 @@
+---
+alwaysApply: true
+---
+# PostgreSQL Toolsets
+
+## SQL Read Only Query
+
+* For all sql read only queries, immediately execute it using the `postgresql-mcp` query tool.
+
+## SQL Write, Update, Delete Query
+
+* For all sql write, update, delete query, use `psql` command line tool that is installed in the computer to execute the sql scripts.

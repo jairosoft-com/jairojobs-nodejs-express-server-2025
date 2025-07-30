@@ -1,0 +1,27 @@
+# Development Dockerfile for JairoJobs Express.js API
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install all dependencies including dev dependencies
+RUN npm ci
+
+# Copy application code
+COPY . .
+
+# Create necessary directories
+RUN mkdir -p /app/uploaded_files /app/logs
+
+# Expose port
+EXPOSE 4010
+
+# Set environment variables
+ENV NODE_ENV=development
+ENV PORT=4010
+
+# Start the application with nodemon for hot reload
+CMD ["npm", "start"] 

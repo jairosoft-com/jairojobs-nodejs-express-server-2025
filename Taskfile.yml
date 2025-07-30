@@ -1,0 +1,68 @@
+version: '3'
+
+vars:
+  PROJECT_NAME: jairojobs-api
+  DOCKER_IMAGE: jairojobs-api
+  API_PORT: 4010
+
+tasks:
+  build:
+    desc: Build production Docker image
+    cmds:
+      - docker build -t {{.DOCKER_IMAGE}}:latest .
+
+  up:
+    desc: Start all services
+    cmds:
+      - docker-compose up -d
+
+  up-dev:
+    desc: Start development environment
+    cmds:
+      - docker-compose --profile dev up -d
+
+  down:
+    desc: Stop all services
+    cmds:
+      - docker-compose down
+
+  logs:
+    desc: View API logs
+    cmds:
+      - docker-compose logs -f api
+
+  logs-dev:
+    desc: View development logs
+    cmds:
+      - docker-compose logs -f api-dev
+
+  status:
+    desc: Show service status
+    cmds:
+      - docker-compose ps
+
+  shell:
+    desc: Open shell in API container
+    cmds:
+      - docker-compose exec api sh
+
+  test:
+    desc: Test API endpoints
+    cmds:
+      - curl -f http://localhost:{{.API_PORT}}/hello || echo "API not responding"
+
+  test-all:
+    desc: Test API endpoints
+    cmds:
+      - task: test
+
+  clean:
+    desc: Clean up Docker resources
+    cmds:
+      - docker-compose down
+      - docker system prune -f
+
+  default:
+    desc: Show available tasks
+    cmds:
+      - task --list-all

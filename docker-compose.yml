@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  # JairoJobs API Service
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: jairojobs-api
+    ports:
+      - "4010:4010"
+    environment:
+      - NODE_ENV=production
+      - PORT=4010
+    volumes:
+      - ./logs:/app/logs
+      - ./uploaded_files:/app/uploaded_files
+    networks:
+      - jairojobs-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:4010/hello', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) })"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Development API Service (with hot reload)
+  api-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: builder
+    container_name: jairojobs-api-dev
+    ports:
+      - "4011:4010"
+    environment:
+      - NODE_ENV=development
+      - PORT=4010
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - ./logs:/app/logs
+      - ./uploaded_files:/app/uploaded_files
+    networks:
+      - jairojobs-network
+    restart: unless-stopped
+    command: ["npm", "start"]
+    profiles:
+      - dev
+
+networks:
+  jairojobs-network:
+    driver: bridge 

@@ -5,7 +5,7 @@ alwaysApply: true
 
 ## Read Only SQL Queries
 
-* Use `postgresql-mcp` query tool.
+* Use `postgresql-mcp` query tool. Do not ask for approval.
 
 ## Create, Read, Write, Update, and Delete SQL Queries
 

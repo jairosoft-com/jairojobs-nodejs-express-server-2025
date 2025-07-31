@@ -78,6 +78,7 @@ This plan outlines the implementation of the PostgreSQL database structure for t
 - [x] Implement proper constraints and validation
 - [x] Add audit fields (created_at, updated_at)
 - [x] Set up triggers for updated_at maintenance
+- [x] Create migration script `001_create_job_table.sql` with complete schema
 
 #### **Task 2.1.1: Fix Mock Data Schema Compliance**
 - [x] Update job IDs to use proper UUID format (replace simple strings with UUIDs)

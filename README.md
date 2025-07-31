@@ -180,29 +180,50 @@ nodejs-express-server/
 
 ## 📊 **Data Models**
 
+### **Company Schema**
+- `id`: Unique company identifier (pattern: comp-[a-zA-Z0-9]+)
+- `name`: Company name
+- `logo`: Company logo URL (URI format)
+- `description`: Company description
+- `website`: Company website (URI format)
+- `industry`: Industry type
+- `size`: Company size (startup, small, medium, large)
+- `founded`: Founding year
+- `headquarters`: Headquarters location
+- `verified`: Verification status
+- `featured`: Featured company status
+
 ### **JobSummary Schema**
-- `id`: Unique job identifier
-- `title`: Job title
-- `company`: Company name
-- `location`: Job location
+- `id`: Unique identifier for the job
+- `title`: The title of the job
+- `company`: Company object (references Company schema with id, name, logo, etc.)
+- `location`: The location of the job
 - `type`: Employment type (full-time, part-time, contract, internship)
 - `remoteOption`: Remote work option (on-site, hybrid, remote)
-- `postedAt`: Posting date (ISO 8601 format)
+- `postedAt`: The date the job was posted (date-time format)
 
-### **JobDetail Schema** (extends JobSummary)
-- `companyId`: Company identifier
-- `companyLogo`: Company logo URL
-- `experienceLevel`: Required experience (entry, mid, senior)
-- `salary`: Salary range with currency and period
-- `description`: Detailed job description
-- `requirements`: List of job requirements
-- `responsibilities`: List of job responsibilities
-- `benefits`: List of job benefits
-- `tags`: Job-related tags
-- `applicationDeadline`: Application deadline
-- `applicants`: Number of applicants
-- `featured`: Featured job flag
-- `active`: Active job flag
+### **Job Schema** (Full job details)
+- `id`: Unique identifier for the job
+- `title`: The title of the job
+- `company`: Company object (references Company schema with id, name, logo, etc.)
+- `location`: The location of the job
+- `type`: Employment type (full-time, part-time, contract, internship)
+- `experienceLevel`: Required experience level (entry, mid, senior)
+- `remoteOption`: Remote work option (on-site, hybrid, remote)
+- `salary`: Salary information object (min, max, currency, period)
+- `description`: The full description of the job
+- `requirements`: List of requirements for the job (max 100 items)
+- `responsibilities`: List of responsibilities for the job (max 100 items)
+- `benefits`: List of benefits for the job (max 100 items)
+- `tags`: List of tags for the job (max 100 items)
+- `postedAt`: The date the job was posted (date-time format)
+- `applicationDeadline`: The deadline for applying for the job (date-time format)
+- `applicants`: The number of applicants for the job
+- `featured`: Whether the job is featured or not
+- `active`: Whether the job is active or not
+
+### **JobDetail Schema** (extends Job schema)
+JobDetail uses `allOf` to extend the Job schema, inheriting all Job fields and adding no additional fields. The JobDetail schema is essentially an alias for the Job schema with a different description and example.
 
 ## 🚀 **Getting Started**
 

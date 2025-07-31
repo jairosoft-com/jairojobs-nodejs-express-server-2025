@@ -103,6 +103,18 @@ This plan outlines the implementation of the PostgreSQL database structure for t
 - [x] Update company IDs to use `comp-` prefix pattern consistently
 - [x] Test schema validation and ensure no OpenAPI linting errors
 
+#### **Task 2.1.4: Refactor JobsService to Use External JSON Data**
+- [x] Create `data/jobs.json` file with all job data
+- [x] Update `JobsService.js` to read from JSON file instead of hardcoded array
+- [x] Add proper error handling for file loading
+- [x] Maintain backward compatibility with existing API structure
+
+#### **Task 2.1.5: Refactor getJobDetails to Use External JSON Data**
+- [x] Create `data/job-details.json` file with detailed job information
+- [x] Update `getJobDetails` function to read from JSON file instead of hardcoded object
+- [x] Add proper error handling and job lookup by ID
+- [x] Implement 404 response for non-existent jobs
+
 ### ✅ **Task 2.2: Create Related Tables**
 - [ ] Create `job_requirements` table (one-to-many)
 - [ ] Create `job_responsibilities` table (one-to-many)

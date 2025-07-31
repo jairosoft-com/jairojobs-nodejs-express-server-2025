@@ -1,0 +1,169 @@
+{
+  "jobDetails": [
+    {
+      "id": "1",
+      "title": "Senior Full Stack Developer",
+      "company": "TechCorp Solutions",
+      "companyId": "comp-001",
+      "companyLogo": "https://via.placeholder.com/200x80/4A90E2/FFFFFF?text=TechCorp",
+      "location": "San Francisco, CA",
+      "type": "full-time",
+      "experienceLevel": "senior",
+      "remoteOption": "hybrid",
+      "salary": {
+        "min": 120000,
+        "max": 180000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "We are seeking a talented Senior Full Stack Developer to join our growing engineering team. You will be responsible for developing and maintaining web applications using modern technologies and best practices.",
+      "requirements": [
+        "5+ years of experience in full-stack development",
+        "Strong proficiency in JavaScript, TypeScript, and React",
+        "Experience with Node.js and Express.js",
+        "Knowledge of SQL and NoSQL databases",
+        "Experience with cloud platforms (AWS, GCP, or Azure)",
+        "Understanding of CI/CD pipelines and DevOps practices"
+      ],
+      "responsibilities": [
+        "Design and develop scalable web applications",
+        "Collaborate with cross-functional teams to define and implement new features",
+        "Write clean, maintainable, and well-documented code",
+        "Participate in code reviews and mentor junior developers",
+        "Optimize applications for maximum speed and scalability",
+        "Stay up-to-date with emerging technologies and industry trends"
+      ],
+      "benefits": [
+        "Competitive salary and equity package",
+        "Comprehensive health, dental, and vision insurance",
+        "Flexible work arrangements and remote work options",
+        "Professional development budget for conferences and courses",
+        "401(k) matching program",
+        "Unlimited PTO policy"
+      ],
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Full Stack",
+        "Senior",
+        "Hybrid"
+      ],
+      "postedAt": "2025-01-15T00:00:00.000Z",
+      "applicationDeadline": "2025-02-15T23:59:59Z",
+      "applicants": 42,
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "2",
+      "title": "Frontend Engineer",
+      "company": "StartupHub",
+      "companyId": "comp-002",
+      "companyLogo": "https://via.placeholder.com/200x80/FF6B6B/FFFFFF?text=StartupHub",
+      "location": "New York, NY",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "remoteOption": "remote",
+      "salary": {
+        "min": 90000,
+        "max": 140000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "Join our fast-growing startup as a Frontend Engineer. You'll work on cutting-edge web applications and help shape the future of our product.",
+      "requirements": [
+        "3+ years of frontend development experience",
+        "Strong knowledge of React, Vue.js, or Angular",
+        "Experience with modern CSS frameworks",
+        "Understanding of responsive design principles",
+        "Knowledge of web accessibility standards",
+        "Experience with testing frameworks"
+      ],
+      "responsibilities": [
+        "Build responsive and accessible user interfaces",
+        "Collaborate with designers and backend developers",
+        "Implement new features and optimize existing ones",
+        "Write unit and integration tests",
+        "Participate in code reviews and technical discussions"
+      ],
+      "benefits": [
+        "Competitive salary with equity options",
+        "Remote-first work environment",
+        "Flexible working hours",
+        "Health insurance coverage",
+        "Professional development opportunities",
+        "Regular team events and retreats"
+      ],
+      "tags": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "Frontend",
+        "Remote",
+        "Startup"
+      ],
+      "postedAt": "2025-01-20T00:00:00.000Z",
+      "applicationDeadline": "2025-02-20T23:59:59Z",
+      "applicants": 28,
+      "featured": false,
+      "active": true
+    },
+    {
+      "id": "3",
+      "title": "DevOps Engineer",
+      "company": "Global Health Systems",
+      "companyId": "comp-003",
+      "companyLogo": "https://via.placeholder.com/200x80/4ECDC4/FFFFFF?text=GlobalHealth",
+      "location": "Boston, MA",
+      "type": "full-time",
+      "experienceLevel": "senior",
+      "remoteOption": "hybrid",
+      "salary": {
+        "min": 110000,
+        "max": 160000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "Join our healthcare technology team as a DevOps Engineer. You'll help build and maintain the infrastructure that powers critical healthcare applications.",
+      "requirements": [
+        "5+ years of DevOps or infrastructure experience",
+        "Strong knowledge of AWS, Azure, or GCP",
+        "Experience with Docker and Kubernetes",
+        "Knowledge of CI/CD pipelines",
+        "Understanding of security best practices",
+        "Experience with monitoring and logging tools"
+      ],
+      "responsibilities": [
+        "Design and implement scalable infrastructure",
+        "Automate deployment and configuration processes",
+        "Monitor system performance and security",
+        "Collaborate with development teams",
+        "Maintain disaster recovery procedures",
+        "Ensure compliance with healthcare regulations"
+      ],
+      "benefits": [
+        "Competitive salary with benefits",
+        "Health, dental, and vision insurance",
+        "401(k) with company match",
+        "Professional development budget",
+        "Flexible work arrangements",
+        "Meaningful work in healthcare"
+      ],
+      "tags": [
+        "DevOps",
+        "AWS",
+        "Kubernetes",
+        "Docker",
+        "Healthcare",
+        "Senior"
+      ],
+      "postedAt": "2025-01-18T00:00:00.000Z",
+      "applicationDeadline": "2025-02-18T23:59:59Z",
+      "applicants": 35,
+      "featured": true,
+      "active": true
+    }
+  ]
+} 

@@ -1,0 +1,211 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior Full Stack Developer",
+      "company": "TechCorp Solutions",
+      "location": "San Francisco, CA",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Frontend Engineer",
+      "company": "StartupHub",
+      "location": "New York, NY",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "DevOps Engineer",
+      "company": "Global Health Systems",
+      "location": "Boston, MA",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-18T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Junior Backend Developer",
+      "company": "TechCorp Solutions",
+      "location": "Austin, TX",
+      "type": "full-time",
+      "remoteOption": "on-site",
+      "postedAt": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Product Designer",
+      "company": "StartupHub",
+      "location": "Remote",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "Backend Engineer",
+      "company": "TechCorp Solutions",
+      "location": "Austin, TX",
+      "type": "full-time",
+      "remoteOption": "on-site",
+      "postedAt": "2025-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "title": "Product Manager",
+      "company": "InnovateTech",
+      "location": "Seattle, WA",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-21T00:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "title": "DevOps Engineer",
+      "company": "CloudScale",
+      "location": "Denver, CO",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "title": "Data Scientist",
+      "company": "DataInsights",
+      "location": "Boston, MA",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-18T00:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "title": "QA Engineer",
+      "company": "TechCorp Solutions",
+      "location": "Portland, OR",
+      "type": "full-time",
+      "remoteOption": "on-site",
+      "postedAt": "2025-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "11",
+      "title": "Mobile Developer",
+      "company": "StartupHub",
+      "location": "San Francisco, CA",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "title": "Security Engineer",
+      "company": "SecureNet",
+      "location": "Washington, DC",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-17T00:00:00.000Z"
+    },
+    {
+      "id": "13",
+      "title": "Technical Writer",
+      "company": "TechCorp Solutions",
+      "location": "Remote",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-21T00:00:00.000Z"
+    },
+    {
+      "id": "14",
+      "title": "Cloud Architect",
+      "company": "CloudScale",
+      "location": "Chicago, IL",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-16T00:00:00.000Z"
+    },
+    {
+      "id": "15",
+      "title": "Marketing Manager",
+      "company": "StartupHub",
+      "location": "Miami, FL",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-18T00:00:00.000Z"
+    },
+    {
+      "id": "16",
+      "title": "Frontend Developer",
+      "company": "InnovateTech",
+      "location": "Phoenix, AZ",
+      "type": "full-time",
+      "remoteOption": "on-site",
+      "postedAt": "2025-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "17",
+      "title": "Data Engineer",
+      "company": "DataInsights",
+      "location": "Atlanta, GA",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "18",
+      "title": "Sales Engineer",
+      "company": "TechCorp Solutions",
+      "location": "Dallas, TX",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-21T00:00:00.000Z"
+    },
+    {
+      "id": "19",
+      "title": "AI/ML Engineer",
+      "company": "InnovateTech",
+      "location": "San Francisco, CA",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "id": "20",
+      "title": "HR Manager",
+      "company": "GlobalHealth",
+      "location": "Nashville, TN",
+      "type": "full-time",
+      "remoteOption": "on-site",
+      "postedAt": "2025-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "21",
+      "title": "Systems Administrator",
+      "company": "TechCorp Solutions",
+      "location": "San Francisco, CA",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-23T00:00:00.000Z"
+    },
+    {
+      "id": "22",
+      "title": "Database Administrator",
+      "company": "DataInsights",
+      "location": "Remote",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-24T00:00:00.000Z"
+    },
+    {
+      "id": "23",
+      "title": "Junior Developer",
+      "company": "StartupHub",
+      "location": "New York, NY",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-25T00:00:00.000Z"
+    }
+  ]
+} 

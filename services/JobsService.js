@@ -32,15 +32,17 @@ const getJobDetails = ({ jobId }) => new Promise(
       // Find the job by ID
       const jobDetail = jobDetails.find(job => job.id === jobId);
       
+      console.log('jobDetails.length', jobDetails.length);
+      console.log('jobDetail', jobDetail);
+      
       if (!jobDetail) {
-        reject(Service.rejectResponse(
-          'Job not found',
-          404,
+        reject(Service.rejectResponse({
+          message: 'Job not found',
+          code: 404,
+        }, 404,
         ));
         return;
       }
-
-      console.log('jobDetail', jobDetail);
 
       resolve(Service.successResponse(jobDetail));
     } catch (e) {
@@ -64,9 +66,12 @@ const getJobDetails = ({ jobId }) => new Promise(
 * */
 const searchAndListJobs = ({ q, location, page = 1, limit = 10 }) => new Promise(
   async (resolve, reject) => {
+    
+    console.log('searchAndListJobs', q, location, page, limit);
+    
     try {
       // Load jobs data from JSON file
-      const jobsDataPath = path.join(__dirname, '..', 'data', 'jobs.json');
+      const jobsDataPath = path.join(__dirname, '..', 'data', 'job-summaries.json');
       let allJobs = [];
       
       try {
@@ -85,10 +90,12 @@ const searchAndListJobs = ({ q, location, page = 1, limit = 10 }) => new Promise
         const query = q.toLowerCase();
         filteredJobs = filteredJobs.filter(job => 
           job.title.toLowerCase().includes(query) ||
-          job.company.toLowerCase().includes(query) ||
+          job.company.name.toLowerCase().includes(query) ||
           job.location.toLowerCase().includes(query)
         );
       }
+      
+      console.log('filteredJobs', filteredJobs);
       
       if (location) {
         const locationQuery = location.toLowerCase();
@@ -96,6 +103,8 @@ const searchAndListJobs = ({ q, location, page = 1, limit = 10 }) => new Promise
           job.location.toLowerCase().includes(locationQuery)
         );
       }
+
+      console.log('filteredJobs', filteredJobs);
 
       // Calculate pagination
       const total = filteredJobs.length;
@@ -112,12 +121,28 @@ const searchAndListJobs = ({ q, location, page = 1, limit = 10 }) => new Promise
         totalPages
       };
 
+      console.log('paginatedJobs', paginatedJobs);
+
+      if (filteredJobs.length === 0) {
+        reject(Service.rejectResponse({
+          message: 'No jobs found'}, 404,
+        ));
+        return;
+      }
+      
+      // Check if the requested page is beyond available data
+      if (page > totalPages && totalPages > 0) {
+        reject(Service.rejectResponse({
+          message: 'Page number exceeds available pages'}, 404,
+        ));
+        return;
+      }
+      
       // Return the response matching SearchAndListJobsResponse200Json schema
       resolve(Service.successResponse({
         jobs: paginatedJobs,
         pagination
       }));
-
     } catch (e) {
       reject(Service.rejectResponse(
         e.message || 'Invalid input',

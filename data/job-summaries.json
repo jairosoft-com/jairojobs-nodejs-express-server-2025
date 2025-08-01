@@ -1,0 +1,46 @@
+{
+  "jobs": [
+    {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "title": "Senior Full Stack Developer",
+      "company": {
+        "id": "comp-001",
+        "name": "TechCorp Solutions",
+        "logo": "https://via.placeholder.com/200x80/4A90E2/FFFFFF?text=TechCorp",
+        "verified": true
+      },
+      "location": "San Francisco, CA",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Frontend Engineer",
+      "company": {
+        "id": "comp-002",
+        "name": "StartupHub",
+        "logo": "https://via.placeholder.com/200x80/FF6B6B/FFFFFF?text=StartupHub",
+        "verified": true
+      },
+      "location": "New York, NY",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "DevOps Engineer",
+      "company": {
+        "id": "comp-003",
+        "name": "Global Health Systems",
+        "logo": "https://via.placeholder.com/200x80/4ECDC4/FFFFFF?text=GlobalHealth",
+        "verified": true
+      },
+      "location": "Boston, MA",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-18T00:00:00.000Z"
+    }
+  ]
+} 

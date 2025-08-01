@@ -66,6 +66,11 @@ tasks:
     cmds:
       - prism mock -p 4010 api/openapi.yaml
 
+  mock-validate:
+    desc: Validate Prism mock server
+    cmds:
+      - prism proxy api/openapi.yaml http://localhost:4010 --errors
+
   clean:
     desc: Clean up Docker resources
     cmds:

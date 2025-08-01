@@ -12,6 +12,9 @@ const path = require('path');
 * */
 const getJobDetails = ({ jobId }) => new Promise(
   async (resolve, reject) => {
+    
+    console.log('getJobDetails', jobId);
+    
     try {
       // Load job details data from JSON file
       const jobDetailsPath = path.join(__dirname, '..', 'data', 'job-details.json');
@@ -36,6 +39,8 @@ const getJobDetails = ({ jobId }) => new Promise(
         ));
         return;
       }
+
+      console.log('jobDetail', jobDetail);
 
       resolve(Service.successResponse(jobDetail));
     } catch (e) {

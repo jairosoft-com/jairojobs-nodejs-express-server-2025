@@ -56,6 +56,16 @@ tasks:
     cmds:
       - task: test
 
+  start:
+    desc: Start the application using npm
+    cmds:
+      - npm run start
+
+  mock:
+    desc: Start Prism mock server
+    cmds:
+      - prism mock -p 4010 api/openapi.yaml
+
   clean:
     desc: Clean up Docker resources
     cmds:

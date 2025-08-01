@@ -11,7 +11,7 @@ info:
     url: https://opensource.org/licenses/MIT
 servers:
 - description: Development Server
-  url: https://dev-api.jairojobs.com
+  url: http://localhost.com:4010
 - description: Production Server
   url: https://api.jairojobs.com
 security:

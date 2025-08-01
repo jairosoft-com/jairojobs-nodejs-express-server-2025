@@ -326,11 +326,60 @@ curl http://localhost:4010/hello
 # List jobs (requires API key)
 curl -H "X-API-Key: test-key" http://localhost:4010/v1/jobs
 
-# Search jobs
-curl -H "X-API-Key: test-key" "http://localhost:4010/v1/jobs?q=developer&location=San%20Francisco&page=1&limit=5"
+# Search jobs with default pagination (page=1, limit=10)
+curl -H "X-API-Key: test-key" "http://localhost:4010/v1/jobs?q=developer&location=San%20Francisco"
+
+# Search jobs with custom pagination (page=2, limit=5)
+curl -H "X-API-Key: test-key" "http://localhost:4010/v1/jobs?page=2&limit=5"
 
 # Get job details
 curl -H "X-API-Key: test-key" "http://localhost:4010/v1/jobs/123e4567-e89b-12d3-a456-426614174000"
+```
+
+### **5. Pagination Examples**
+
+**Default Pagination (page=1, limit=10):**
+```bash
+curl -H "X-API-Key: test-key" "http://localhost:4010/v1/jobs"
+```
+**Response:**
+```json
+{
+  "jobs": [
+    {"id": "1", "title": "Senior Full Stack Developer", ...},
+    {"id": "2", "title": "Frontend Engineer", ...},
+    // ... jobs 1-10
+  ],
+  "pagination": {
+    "total": 23,
+    "page": 1,
+    "limit": 10,
+    "totalPages": 3
+  }
+}
+```
+
+**Custom Pagination (page=2, limit=5):**
+```bash
+curl -H "X-API-Key: test-key" "http://localhost:4010/v1/jobs?page=2&limit=5"
+```
+**Response:**
+```json
+{
+  "jobs": [
+    {"id": "6", "title": "Backend Engineer", ...},
+    {"id": "7", "title": "Product Manager", ...},
+    {"id": "8", "title": "DevOps Engineer", ...},
+    {"id": "9", "title": "Data Scientist", ...},
+    {"id": "10", "title": "QA Engineer", ...}
+  ],
+  "pagination": {
+    "total": 23,
+    "page": 2,
+    "limit": 5,
+    "totalPages": 5
+  }
+}
 ```
 
 ### **5. API Documentation**

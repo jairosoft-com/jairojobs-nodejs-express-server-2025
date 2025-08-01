@@ -115,6 +115,13 @@ This plan outlines the implementation of the PostgreSQL database structure for t
 - [x] Add proper error handling and job lookup by ID
 - [x] Implement 404 response for non-existent jobs
 
+#### **Task 2.1.6: Add Pagination Examples to Documentation**
+- [x] Add multiple pagination examples to README.md
+- [x] Include default pagination (page=1, limit=10) example
+- [x] Include custom pagination (page=2, limit=5) example
+- [x] Add curl command examples for both scenarios
+- [x] Document expected response structure for each example
+
 ### ✅ **Task 2.2: Create Related Tables**
 - [ ] Create `job_requirements` table (one-to-many)
 - [ ] Create `job_responsibilities` table (one-to-many)

@@ -15,7 +15,7 @@
       "postedAt": "2025-01-15T00:00:00.000Z"
     },
     {
-      "id": "2",
+      "id": "234f5678-f89c-23e4-b567-537725285111",
       "title": "Frontend Engineer",
       "company": {
         "id": "comp-002",
@@ -29,7 +29,7 @@
       "postedAt": "2025-01-20T00:00:00.000Z"
     },
     {
-      "id": "3",
+      "id": "34567890-1234-5678-9abc-def012345678",
       "title": "DevOps Engineer",
       "company": {
         "id": "comp-003",
@@ -41,6 +41,104 @@
       "type": "full-time",
       "remoteOption": "hybrid",
       "postedAt": "2025-01-18T00:00:00.000Z"
+    },
+    {
+      "id": "45678901-2345-6789-bcde-ef1234567890",
+      "title": "Data Scientist",
+      "company": {
+        "id": "comp-004",
+        "name": "Analytics Pro",
+        "logo": "https://via.placeholder.com/200x80/9B59B6/FFFFFF?text=Analytics",
+        "verified": true
+      },
+      "location": "Seattle, WA",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "id": "56789012-3456-7890-cdef-f23456789012",
+      "title": "UX/UI Designer",
+      "company": {
+        "id": "comp-005",
+        "name": "Creative Studios",
+        "logo": "https://via.placeholder.com/200x80/E74C3C/FFFFFF?text=Creative",
+        "verified": true
+      },
+      "location": "Austin, TX",
+      "type": "part-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-01-25T00:00:00.000Z"
+    },
+    {
+      "id": "67890123-4567-8901-def0-345678901234",
+      "title": "Mobile App Developer",
+      "company": {
+        "id": "comp-006",
+        "name": "AppWorks",
+        "logo": "https://via.placeholder.com/200x80/F39C12/FFFFFF?text=AppWorks",
+        "verified": false
+      },
+      "location": "Miami, FL",
+      "type": "contract",
+      "remoteOption": "on-site",
+      "postedAt": "2025-01-28T00:00:00.000Z"
+    },
+    {
+      "id": "78901234-5678-9012-ef01-456789012345",
+      "title": "Backend Developer",
+      "company": {
+        "id": "comp-007",
+        "name": "CloudTech",
+        "logo": "https://via.placeholder.com/200x80/3498DB/FFFFFF?text=CloudTech",
+        "verified": true
+      },
+      "location": "Denver, CO",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-01-30T00:00:00.000Z"
+    },
+    {
+      "id": "89012345-6789-0123-f012-567890123456",
+      "title": "QA Engineer",
+      "company": {
+        "id": "comp-008",
+        "name": "Quality First",
+        "logo": "https://via.placeholder.com/200x80/27AE60/FFFFFF?text=Quality",
+        "verified": true
+      },
+      "location": "Chicago, IL",
+      "type": "full-time",
+      "remoteOption": "hybrid",
+      "postedAt": "2025-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "90123456-7890-1234-0123-678901234567",
+      "title": "Software Engineering Intern",
+      "company": {
+        "id": "comp-009",
+        "name": "InnovateCorp",
+        "logo": "https://via.placeholder.com/200x80/8E44AD/FFFFFF?text=Innovate",
+        "verified": true
+      },
+      "location": "Portland, OR",
+      "type": "internship",
+      "remoteOption": "on-site",
+      "postedAt": "2025-02-03T00:00:00.000Z"
+    },
+    {
+      "id": "a1234567-8901-2345-1234-789012345678",
+      "title": "Product Manager",
+      "company": {
+        "id": "comp-010",
+        "name": "ProductHub",
+        "logo": "https://via.placeholder.com/200x80/16A085/FFFFFF?text=Product",
+        "verified": true
+      },
+      "location": "San Diego, CA",
+      "type": "full-time",
+      "remoteOption": "remote",
+      "postedAt": "2025-02-05T00:00:00.000Z"
     }
   ]
 } 

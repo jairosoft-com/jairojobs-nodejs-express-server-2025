@@ -194,6 +194,444 @@
       "applicants": 35,
       "featured": true,
       "active": true
+    },
+    {
+      "id": "45678901-2345-6789-bcde-ef1234567890",
+      "title": "Data Scientist",
+      "company": {
+        "id": "comp-004",
+        "name": "Analytics Pro",
+        "logo": "https://via.placeholder.com/200x80/9B59B6/FFFFFF?text=Analytics",
+        "description": "Leading analytics company specializing in big data solutions and machine learning applications for enterprise clients.",
+        "website": "https://analyticspro.example.com",
+        "industry": "technology",
+        "size": "medium",
+        "founded": 2018,
+        "headquarters": "Seattle, WA",
+        "verified": true,
+        "featured": true
+      },
+      "location": "Seattle, WA",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "remoteOption": "remote",
+      "salary": {
+        "min": 100000,
+        "max": 150000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "Join our data science team to develop innovative machine learning solutions and drive data-driven decision making across the organization.",
+      "requirements": [
+        "3+ years of experience in data science or analytics",
+        "Strong programming skills in Python and R",
+        "Experience with machine learning frameworks (TensorFlow, PyTorch)",
+        "Knowledge of statistical analysis and experimental design",
+        "Experience with big data technologies (Spark, Hadoop)",
+        "Strong communication and presentation skills"
+      ],
+      "responsibilities": [
+        "Develop and implement machine learning models",
+        "Analyze large datasets to extract meaningful insights",
+        "Collaborate with cross-functional teams to solve business problems",
+        "Present findings to stakeholders and technical audiences",
+        "Stay current with latest developments in data science"
+      ],
+      "benefits": [
+        "Competitive salary with equity",
+        "Comprehensive health benefits",
+        "Remote work flexibility",
+        "Professional development budget",
+        "401(k) matching",
+        "Regular team events and conferences"
+      ],
+      "tags": [
+        "Python",
+        "Machine Learning",
+        "Data Science",
+        "Remote",
+        "Analytics"
+      ],
+      "postedAt": "2025-01-22T00:00:00.000Z",
+      "applicationDeadline": "2025-02-22T23:59:59Z",
+      "applicants": 31,
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "56789012-3456-7890-cdef-f23456789012",
+      "title": "UX/UI Designer",
+      "company": {
+        "id": "comp-005",
+        "name": "Creative Studios",
+        "logo": "https://via.placeholder.com/200x80/E74C3C/FFFFFF?text=Creative",
+        "description": "Creative agency focused on digital design and user experience for web and mobile applications.",
+        "website": "https://creativestudios.example.com",
+        "industry": "design",
+        "size": "small",
+        "founded": 2019,
+        "headquarters": "Austin, TX",
+        "verified": true,
+        "featured": false
+      },
+      "location": "Austin, TX",
+      "type": "part-time",
+      "experienceLevel": "mid",
+      "remoteOption": "hybrid",
+      "salary": {
+        "min": 60000,
+        "max": 80000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "Join our creative team as a UX/UI Designer to create beautiful and functional user experiences for our diverse client portfolio.",
+      "requirements": [
+        "2+ years of UX/UI design experience",
+        "Proficiency in design tools (Figma, Sketch, Adobe Creative Suite)",
+        "Understanding of user-centered design principles",
+        "Experience with prototyping and user testing",
+        "Knowledge of design systems and component libraries",
+        "Portfolio demonstrating web and mobile design work"
+      ],
+      "responsibilities": [
+        "Create user-centered designs for web and mobile applications",
+        "Conduct user research and usability testing",
+        "Collaborate with developers and product managers",
+        "Create wireframes, prototypes, and high-fidelity designs",
+        "Maintain and evolve design systems"
+      ],
+      "benefits": [
+        "Flexible part-time schedule",
+        "Health insurance coverage",
+        "Professional development opportunities",
+        "Creative and collaborative work environment",
+        "Remote work options"
+      ],
+      "tags": [
+        "UX Design",
+        "UI Design",
+        "Figma",
+        "Part-time",
+        "Creative"
+      ],
+      "postedAt": "2025-01-25T00:00:00.000Z",
+      "applicationDeadline": "2025-02-25T23:59:59Z",
+      "applicants": 19,
+      "featured": false,
+      "active": true
+    },
+    {
+      "id": "67890123-4567-8901-def0-345678901234",
+      "title": "Mobile App Developer",
+      "company": {
+        "id": "comp-006",
+        "name": "AppWorks",
+        "logo": "https://via.placeholder.com/200x80/F39C12/FFFFFF?text=AppWorks",
+        "description": "Mobile app development company specializing in iOS and Android applications for startups and enterprises.",
+        "website": "https://appworks.example.com",
+        "industry": "technology",
+        "size": "small",
+        "founded": 2021,
+        "headquarters": "Miami, FL",
+        "verified": false,
+        "featured": false
+      },
+      "location": "Miami, FL",
+      "type": "contract",
+      "experienceLevel": "senior",
+      "remoteOption": "on-site",
+      "salary": {
+        "min": 80000,
+        "max": 120000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "Join our mobile development team to build innovative iOS and Android applications for our diverse client base.",
+      "requirements": [
+        "5+ years of mobile app development experience",
+        "Strong knowledge of iOS (Swift) and Android (Kotlin/Java)",
+        "Experience with React Native or Flutter",
+        "Understanding of mobile app architecture patterns",
+        "Knowledge of app store guidelines and submission process",
+        "Experience with mobile testing and debugging"
+      ],
+      "responsibilities": [
+        "Develop native iOS and Android applications",
+        "Collaborate with designers and product managers",
+        "Write clean, maintainable, and well-documented code",
+        "Participate in code reviews and technical discussions",
+        "Stay current with mobile development trends"
+      ],
+      "benefits": [
+        "Competitive contract rates",
+        "Flexible project-based work",
+        "Professional development opportunities",
+        "Modern office environment",
+        "Team events and networking"
+      ],
+      "tags": [
+        "iOS",
+        "Android",
+        "Mobile Development",
+        "Contract",
+        "On-site"
+      ],
+      "postedAt": "2025-01-28T00:00:00.000Z",
+      "applicationDeadline": "2025-02-28T23:59:59Z",
+      "applicants": 15,
+      "featured": false,
+      "active": true
+    },
+    {
+      "id": "78901234-5678-9012-ef01-456789012345",
+      "title": "Backend Developer",
+      "company": {
+        "id": "comp-007",
+        "name": "CloudTech",
+        "logo": "https://via.placeholder.com/200x80/3498DB/FFFFFF?text=CloudTech",
+        "description": "Cloud technology company providing scalable backend solutions and microservices architecture.",
+        "website": "https://cloudtech.example.com",
+        "industry": "technology",
+        "size": "medium",
+        "founded": 2017,
+        "headquarters": "Denver, CO",
+        "verified": true,
+        "featured": true
+      },
+      "location": "Denver, CO",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "remoteOption": "remote",
+      "salary": {
+        "min": 95000,
+        "max": 140000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "Join our backend development team to build scalable, high-performance APIs and microservices for cloud-native applications.",
+      "requirements": [
+        "3+ years of backend development experience",
+        "Strong knowledge of Node.js, Python, or Java",
+        "Experience with cloud platforms (AWS, GCP, Azure)",
+        "Understanding of microservices architecture",
+        "Knowledge of databases (SQL and NoSQL)",
+        "Experience with API design and documentation"
+      ],
+      "responsibilities": [
+        "Design and implement scalable backend services",
+        "Develop RESTful APIs and microservices",
+        "Optimize database queries and performance",
+        "Collaborate with frontend and DevOps teams",
+        "Participate in code reviews and technical discussions"
+      ],
+      "benefits": [
+        "Competitive salary with equity",
+        "Comprehensive health benefits",
+        "Remote-first work environment",
+        "Professional development budget",
+        "401(k) matching",
+        "Flexible working hours"
+      ],
+      "tags": [
+        "Node.js",
+        "Python",
+        "Backend",
+        "Microservices",
+        "Remote"
+      ],
+      "postedAt": "2025-01-30T00:00:00.000Z",
+      "applicationDeadline": "2025-03-02T23:59:59Z",
+      "applicants": 38,
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "89012345-6789-0123-f012-567890123456",
+      "title": "QA Engineer",
+      "company": {
+        "id": "comp-008",
+        "name": "Quality First",
+        "logo": "https://via.placeholder.com/200x80/27AE60/FFFFFF?text=Quality",
+        "description": "Quality assurance company specializing in automated testing and quality engineering for software applications.",
+        "website": "https://qualityfirst.example.com",
+        "industry": "technology",
+        "size": "medium",
+        "founded": 2016,
+        "headquarters": "Chicago, IL",
+        "verified": true,
+        "featured": false
+      },
+      "location": "Chicago, IL",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "remoteOption": "hybrid",
+      "salary": {
+        "min": 75000,
+        "max": 110000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "Join our quality assurance team to ensure the highest standards of software quality through comprehensive testing strategies.",
+      "requirements": [
+        "3+ years of QA engineering experience",
+        "Experience with automated testing frameworks (Selenium, Cypress)",
+        "Knowledge of testing methodologies and best practices",
+        "Experience with CI/CD pipelines",
+        "Understanding of performance and security testing",
+        "Strong analytical and problem-solving skills"
+      ],
+      "responsibilities": [
+        "Design and implement automated test suites",
+        "Perform manual and automated testing",
+        "Collaborate with development teams to identify and fix bugs",
+        "Create and maintain test documentation",
+        "Participate in release planning and testing"
+      ],
+      "benefits": [
+        "Competitive salary with benefits",
+        "Health, dental, and vision insurance",
+        "Hybrid work environment",
+        "Professional development opportunities",
+        "401(k) matching",
+        "Regular team events"
+      ],
+      "tags": [
+        "QA",
+        "Testing",
+        "Automation",
+        "Selenium",
+        "Hybrid"
+      ],
+      "postedAt": "2025-02-01T00:00:00.000Z",
+      "applicationDeadline": "2025-03-03T23:59:59Z",
+      "applicants": 22,
+      "featured": false,
+      "active": true
+    },
+    {
+      "id": "90123456-7890-1234-0123-678901234567",
+      "title": "Software Engineering Intern",
+      "company": {
+        "id": "comp-009",
+        "name": "InnovateCorp",
+        "logo": "https://via.placeholder.com/200x80/8E44AD/FFFFFF?text=Innovate",
+        "description": "Innovative technology company focused on cutting-edge software solutions and emerging technologies.",
+        "website": "https://innovatecorp.example.com",
+        "industry": "technology",
+        "size": "large",
+        "founded": 2012,
+        "headquarters": "Portland, OR",
+        "verified": true,
+        "featured": true
+      },
+      "location": "Portland, OR",
+      "type": "internship",
+      "experienceLevel": "entry",
+      "remoteOption": "on-site",
+      "salary": {
+        "min": 25000,
+        "max": 35000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "Join our engineering team as an intern to gain hands-on experience with modern software development practices and technologies.",
+      "requirements": [
+        "Currently pursuing a degree in Computer Science or related field",
+        "Basic programming knowledge in Python, Java, or JavaScript",
+        "Strong academic performance and problem-solving skills",
+        "Eagerness to learn and work in a team environment",
+        "Good communication and documentation skills"
+      ],
+      "responsibilities": [
+        "Assist in software development projects",
+        "Learn modern development tools and practices",
+        "Participate in code reviews and team meetings",
+        "Contribute to documentation and testing",
+        "Work on real-world projects with mentorship"
+      ],
+      "benefits": [
+        "Competitive internship stipend",
+        "Mentorship from experienced engineers",
+        "Hands-on experience with modern technologies",
+        "Potential for full-time employment",
+        "Networking opportunities",
+        "Professional development workshops"
+      ],
+      "tags": [
+        "Internship",
+        "Entry Level",
+        "Learning",
+        "On-site",
+        "Mentorship"
+      ],
+      "postedAt": "2025-02-03T00:00:00.000Z",
+      "applicationDeadline": "2025-03-05T23:59:59Z",
+      "applicants": 45,
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "a1234567-8901-2345-1234-789012345678",
+      "title": "Product Manager",
+      "company": {
+        "id": "comp-010",
+        "name": "ProductHub",
+        "logo": "https://via.placeholder.com/200x80/16A085/FFFFFF?text=Product",
+        "description": "Product management company helping organizations build successful products through strategic planning and execution.",
+        "website": "https://producthub.example.com",
+        "industry": "technology",
+        "size": "medium",
+        "founded": 2014,
+        "headquarters": "San Diego, CA",
+        "verified": true,
+        "featured": false
+      },
+      "location": "San Diego, CA",
+      "type": "full-time",
+      "experienceLevel": "senior",
+      "remoteOption": "remote",
+      "salary": {
+        "min": 120000,
+        "max": 180000,
+        "currency": "USD",
+        "period": "yearly"
+      },
+      "description": "Join our product management team to lead the development of innovative products and drive business growth through strategic product decisions.",
+      "requirements": [
+        "5+ years of product management experience",
+        "Strong analytical and strategic thinking skills",
+        "Experience with agile development methodologies",
+        "Knowledge of product analytics and user research",
+        "Excellent communication and leadership skills",
+        "Experience with product roadmap planning and execution"
+      ],
+      "responsibilities": [
+        "Define product vision and strategy",
+        "Lead cross-functional product development teams",
+        "Conduct market research and competitive analysis",
+        "Define product requirements and user stories",
+        "Monitor product performance and iterate based on data"
+      ],
+      "benefits": [
+        "Competitive salary with equity",
+        "Comprehensive health benefits",
+        "Remote work flexibility",
+        "Professional development budget",
+        "401(k) matching",
+        "Regular team events and conferences"
+      ],
+      "tags": [
+        "Product Management",
+        "Strategy",
+        "Agile",
+        "Remote",
+        "Senior"
+      ],
+      "postedAt": "2025-02-05T00:00:00.000Z",
+      "applicationDeadline": "2025-03-07T23:59:59Z",
+      "applicants": 33,
+      "featured": false,
+      "active": true
     }
   ]
 } 
